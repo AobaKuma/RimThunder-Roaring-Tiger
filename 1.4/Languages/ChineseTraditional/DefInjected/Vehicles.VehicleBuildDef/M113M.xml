@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RT_M113M_APC_Blueprint.label>M125</RT_M113M_APC_Blueprint.label>
+  <RT_M113M_APC_Blueprint.description>在乘員艙安裝了一門81毫米迫擊炮的M113裝甲運輸車，使其能夠機動部署與為步兵帶來曲射火力支援，但代價是載員空間大量減少。\n\n&lt;color=#bb8f04&gt;乘員:&lt;/color&gt; 駕駛員 x1, 炮手 x2，機槍手 x1，乘客 x2\n&lt;color=#bb8f04&gt;燃料種類:&lt;/color&gt; 化合燃料\n\n&lt;color=#b0e0e6&gt;CE彈藥類型:&lt;/color&gt; \n81mm迫擊炮彈（主炮）\n7.62x51mm NATO（車頂機槍）</RT_M113M_APC_Blueprint.description>
+
+
+</LanguageData>

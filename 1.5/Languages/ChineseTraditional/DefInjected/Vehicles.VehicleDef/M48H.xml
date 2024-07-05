@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 載具本體 -->
+
+  <RT_M48H_MediumTank.label>M48H中型戰車</RT_M48H_MediumTank.label>
+  <RT_M48H_MediumTank.description>一種老式的第二代戰車，被設計用於在山地與叢林中作戰,然而使它遍布於整個邊緣世界的原因則是因為數百年前使用其作為拍攝道具的邊緣世界實境戰爭秀《西貢鐵拳》在閃耀世界中一炮而紅,使得大量的劇組在邊緣世界紛紛跟風佔據了星球拍攝了大量相關題材的作品. 
+		在鬧劇般的戰爭秀消失於邊緣世界後,這些被大量生產出來的坦克因為其相對易維護的可靠性在經過第三代改裝後成為各大工業世界國家與地區武裝勢力的主要裝甲單位,,裝備了一門105口徑的線膛加農砲與為作戰環境需要而安裝的防禦機槍.</RT_M48H_MediumTank.description>
+  <RT_M48H_MediumTank.properties.roles.0.label>駕駛員</RT_M48H_MediumTank.properties.roles.0.label>
+  <RT_M48H_MediumTank.properties.roles.1.label>砲手</RT_M48H_MediumTank.properties.roles.1.label>
+  <RT_M48H_MediumTank.components.0.label>引擎</RT_M48H_MediumTank.components.0.label>
+  <RT_M48H_MediumTank.components.1.label>油箱</RT_M48H_MediumTank.components.1.label>
+  <RT_M48H_MediumTank.components.2.label>變速箱</RT_M48H_MediumTank.components.2.label>
+  <RT_M48H_MediumTank.components.3.label>彈藥架</RT_M48H_MediumTank.components.3.label>
+  <RT_M48H_MediumTank.components.4.label>傳動軸</RT_M48H_MediumTank.components.4.label>
+  <RT_M48H_MediumTank.components.5.label>左履帶</RT_M48H_MediumTank.components.5.label>
+  <RT_M48H_MediumTank.components.6.label>右履帶</RT_M48H_MediumTank.components.6.label>
+  <RT_M48H_MediumTank.components.7.label>左負重輪組</RT_M48H_MediumTank.components.7.label>
+  <RT_M48H_MediumTank.components.8.label>右負重輪組</RT_M48H_MediumTank.components.8.label>
+  <RT_M48H_MediumTank.components.9.label>左驅動輪</RT_M48H_MediumTank.components.9.label>
+  <RT_M48H_MediumTank.components.10.label>右驅動輪</RT_M48H_MediumTank.components.10.label>
+  <RT_M48H_MediumTank.components.11.label>左張緊輪</RT_M48H_MediumTank.components.11.label>
+  <RT_M48H_MediumTank.components.12.label>右張緊輪</RT_M48H_MediumTank.components.12.label>
+  <RT_M48H_MediumTank.components.13.label>前方裝甲</RT_M48H_MediumTank.components.13.label>
+  <RT_M48H_MediumTank.components.14.label>左側裝甲</RT_M48H_MediumTank.components.14.label>
+  <RT_M48H_MediumTank.components.15.label>右側裝甲</RT_M48H_MediumTank.components.15.label>
+  <RT_M48H_MediumTank.components.16.label>頂部裝甲</RT_M48H_MediumTank.components.16.label>
+  <RT_M48H_MediumTank.components.17.label>後方裝甲</RT_M48H_MediumTank.components.17.label>
+  <RT_M48H_MediumTank.components.18.label>主炮塔</RT_M48H_MediumTank.components.18.label>
+  <RT_M48H_MediumTank.components.19.label>正面反應裝甲</RT_M48H_MediumTank.components.19.label>
+  <RT_M48H_MediumTank.components.20.label>炮塔反應裝甲</RT_M48H_MediumTank.components.20.label>
+
+  <RT_M48H_MediumTank.comps.CompVehicleTurrets.turrets.0.gizmoLabel>105mm主炮</RT_M48H_MediumTank.comps.CompVehicleTurrets.turrets.0.gizmoLabel>
+	<RT_M48H_MediumTank.comps.CompVehicleTurrets.turrets.1.gizmoLabel>高射機槍</RT_M48H_MediumTank.comps.CompVehicleTurrets.turrets.1.gizmoLabel>
+	<RT_M48H_MediumTank.comps.CompVehicleTurrets.turrets.2.gizmoLabel>同軸機槍</RT_M48H_MediumTank.comps.CompVehicleTurrets.turrets.2.gizmoLabel>
+	<RT_M48H_MediumTank.comps.CompVehicleTurrets.turrets.3.gizmoLabel>左煙霧彈</RT_M48H_MediumTank.comps.CompVehicleTurrets.turrets.3.gizmoLabel>
+	<RT_M48H_MediumTank.comps.CompVehicleTurrets.turrets.4.gizmoLabel>右煙霧彈</RT_M48H_MediumTank.comps.CompVehicleTurrets.turrets.4.gizmoLabel>
+
+
+</LanguageData>

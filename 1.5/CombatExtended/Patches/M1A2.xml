@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+
+			<!-- Turret -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_M1A2_Tank_Turret"]/projectile</xpath>
+				<value>
+					<projectile>Bullet_120mmCannonShell_HEAT</projectile>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_M1A2_Tank_Turret"]/reloadTimer</xpath>
+				<value>
+					<reloadTimer>6.2</reloadTimer>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_M1A2_Tank_Turret"]/warmUpTimer</xpath>
+				<value>
+					<warmUpTimer>2.8</warmUpTimer>
+				</value>
+			</li>
+
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_M1A2_Tank_Turret"]/chargePerAmmoCount</xpath>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_M1A2_Tank_Turret"]/genericAmmo</xpath>
+				<value>
+					<genericAmmo>false</genericAmmo>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_M1A2_Tank_Turret"]/maxRange</xpath>
+				<value>
+					<maxRange>86</maxRange>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+                <xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_M1A2_Tank_Turret"]/ammunition/thingDefs</xpath>
+                <value>
+                    <thingDefs>
+                        <li>Ammo_120mmCannonShell_HEAT</li>
+                        <li>Ammo_120mmCannonShell_HE</li>
+                    </thingDefs>
+                </value>
+            </li>
+
+			<li Class="PatchOperationAddModExtension">
+				<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_M1A2_Tank_Turret"]</xpath>
+				<value>
+					<li Class="Vehicles.CETurretDataDefModExtension">
+						<ammoSet>AmmoSet_120mmCannonShell</ammoSet>
+						<shotHeight>2.5</shotHeight>
+						<speed>124</speed>
+						<sway>0.82</sway>
+						<spread>0.01</spread>
+					</li>
+				</value>
+			</li>
+
+
+			<!-- Vehicle -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/Vehicles.VehicleDef[defName="RT_M1A2_MainBattleTank"]/statBases/ArmorRating_Blunt</xpath>
+				<value>
+					<ArmorRating_Blunt>40</ArmorRating_Blunt>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/Vehicles.VehicleDef[defName="RT_M1A2_MainBattleTank"]/statBases/ArmorRating_Sharp</xpath>
+				<value>
+					<ArmorRating_Sharp>20</ArmorRating_Sharp>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/Vehicles.VehicleDef[defName="RT_M1A2_MainBattleTank"]/vehicleStats/CargoCapacity</xpath>
+				<value>
+					<CargoCapacity>1200</CargoCapacity>
+				</value>
+			</li>
+
+			<!-- 正面裝甲 -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/Vehicles.VehicleDef[defName="RT_M1A2_MainBattleTank"]/components/li[key="FrontArmorPlating"]/health</xpath>
+				<value>
+					<health>700</health>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/Vehicles.VehicleDef[defName="RT_M1A2_MainBattleTank"]/components/li[key="FrontArmorPlating"]/armor/ArmorRating_Blunt</xpath>
+				<value>
+					<ArmorRating_Blunt>10000</ArmorRating_Blunt>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/Vehicles.VehicleDef[defName="RT_M1A2_MainBattleTank"]/components/li[key="FrontArmorPlating"]/armor/ArmorRating_Sharp</xpath>
+				<value>
+					<ArmorRating_Sharp>450</ArmorRating_Sharp>
+				</value>
+			</li>
+			<!-- 側面裝甲左 -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/Vehicles.VehicleDef[defName="RT_M1A2_MainBattleTank"]/components/li[key="LeftArmorPlating"]/health</xpath>
+				<value>
+					<health>700</health>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/Vehicles.VehicleDef[defName="RT_M1A2_MainBattleTank"]/components/li[key="LeftArmorPlating"]/armor/ArmorRating_Blunt</xpath>
+				<value>
+					<ArmorRating_Blunt>4000</ArmorRating_Blunt>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/Vehicles.VehicleDef[defName="RT_M1A2_MainBattleTank"]/components/li[key="LeftArmorPlating"]/armor/ArmorRating_Sharp</xpath>
+				<value>
+					<ArmorRating_Sharp>100</ArmorRating_Sharp>
+				</value>
+			</li>
+			<!-- 側面裝甲右 -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/Vehicles.VehicleDef[defName="RT_M1A2_MainBattleTank"]/components/li[key="RightArmorPlating"]/health</xpath>
+				<value>
+					<health>700</health>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/Vehicles.VehicleDef[defName="RT_M1A2_MainBattleTank"]/components/li[key="RightArmorPlating"]/armor/ArmorRating_Blunt</xpath>
+				<value>
+					<ArmorRating_Blunt>4000</ArmorRating_Blunt>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/Vehicles.VehicleDef[defName="RT_M1A2_MainBattleTank"]/components/li[key="RightArmorPlating"]/armor/ArmorRating_Sharp</xpath>
+				<value>
+					<ArmorRating_Sharp>100</ArmorRating_Sharp>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/Vehicles.VehicleDef[defName="RT_M1A2_MainBattleTank"]/components/li[key="LeftSkirtPlating" or key="RightSkirtPlating"]/health</xpath>
+				<value>
+					<health>700</health>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/Vehicles.VehicleDef[defName="RT_M1A2_MainBattleTank"]/components/li[key="LeftSkirtPlating" or key="RightSkirtPlating"]/armor/ArmorRating_Blunt</xpath>
+				<value>
+					<ArmorRating_Blunt>600</ArmorRating_Blunt>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/Vehicles.VehicleDef[defName="RT_M1A2_MainBattleTank"]/components/li[key="LeftSkirtPlating" or key="RightSkirtPlating"]/armor/ArmorRating_Sharp</xpath>
+				<value>
+					<ArmorRating_Sharp>30</ArmorRating_Sharp>
+				</value>
+			</li>
+
+			<!-- 頂部裝甲 -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/Vehicles.VehicleDef[defName="RT_M1A2_MainBattleTank"]/components/li[key="RoofArmorPlating" or key="BackArmorPlating"]/health</xpath>
+				<value>
+					<health>600</health>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/Vehicles.VehicleDef[defName="RT_M1A2_MainBattleTank"]/components/li[key="RoofArmorPlating" or key="BackArmorPlating"]/armor/ArmorRating_Blunt</xpath>
+				<value>
+					<ArmorRating_Blunt>3000</ArmorRating_Blunt>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/Vehicles.VehicleDef[defName="RT_M1A2_MainBattleTank"]/components/li[key="RoofArmorPlating" or key="BackArmorPlating"]/armor/ArmorRating_Sharp</xpath>
+				<value>
+					<ArmorRating_Sharp>25</ArmorRating_Sharp>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<!--turret-->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleDef[defName="RT_M1A2_MainBattleTank"]/components/li[key="MainTurret"]/health</xpath>
+		<value>
+			<health>880</health>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleDef[defName="RT_M1A2_MainBattleTank"]/components/li[key="MainTurret"]/armor/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>10000</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleDef[defName="RT_M1A2_MainBattleTank"]/components/li[key="MainTurret"]/armor/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>750</ArmorRating_Sharp>
+		</value>
+	</Operation>
+
+</Patch>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  
+  <RT_M1A2_MainBattleTank_Blueprint.label>M1A2T艾布蘭</RT_M1A2_MainBattleTank_Blueprint.label>
+  <RT_M1A2_MainBattleTank_Blueprint.description>一種性能強勁的舊式第三代主戰戰車，使用燃氣輪機驅動以帶來可觀的機動性，在殖民時代曾被大量外銷與授權生產，裝備了一門120mm口徑火炮與大量為邊緣世界作戰環境需要而安裝的防禦機槍。\n\n&lt;color=#bb8f04&gt;乘員:&lt;/color&gt; 駕駛員 x2, 炮手 x2\n&lt;color=#bb8f04&gt;燃料種類:&lt;/color&gt; 化合燃料\n\n&lt;color=#b0e0e6&gt;CE彈藥類型:&lt;/color&gt; \n120mm加農炮彈（主炮）\n.50 BMG（武器站、炮管機槍）\n7.62x51mm NATO（車頂機槍、同軸機槍）</RT_M1A2_MainBattleTank_Blueprint.description>
+
+
+</LanguageData>

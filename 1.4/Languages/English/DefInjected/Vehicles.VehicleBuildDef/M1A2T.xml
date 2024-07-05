@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RT_M1A2_MainBattleTank_Blueprint.label>M1A2T Abrams</RT_M1A2_MainBattleTank_Blueprint.label>
+  <RT_M1A2_MainBattleTank_Blueprint.description>A powerful MBT from a by-gone era, produced for foreign military trade. Equipped with a 120 mm smoothbore cannon and multiple machine gun armaments.\n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x2, Gunner x2\n&lt;color=#bb8f04&gt;Fuel:&lt;/color&gt; Chemfuel\n\n&lt;color=#b0e0e6&gt;CE Ammo:&lt;/color&gt; \n120mm Cannon shell（Main cannon）\n.50 BMG（Turret and Coaxial MG）\n7.62x51mm NATO（Support and Barrel MG）</RT_M1A2_MainBattleTank_Blueprint.description>
+
+
+</LanguageData>

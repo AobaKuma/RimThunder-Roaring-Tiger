@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 主砲的Def -->
+
+  <RT_M113M_APC_Turret.label>迫击炮</RT_M113M_APC_Turret.label>
+  <RT_M113M_APC_Turret.fireModes.0.label>单发射击</RT_M113M_APC_Turret.fireModes.0.label>
+
+
+  <!-- 主炮的Def -->
+
+</LanguageData>

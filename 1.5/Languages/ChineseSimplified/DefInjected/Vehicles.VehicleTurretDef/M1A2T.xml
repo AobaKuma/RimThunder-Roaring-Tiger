@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 主砲的Def -->
+
+  <RT_M1A2_Tank_Turret.label>120毫米坦克炮</RT_M1A2_Tank_Turret.label>
+  <RT_M1A2_Tank_Turret.fireModes.0.label>单发射击</RT_M1A2_Tank_Turret.fireModes.0.label>
+
+
+  <!-- 炮1 -->
+
+  <RT_M249_MGTurret.label>m249机枪</RT_M249_MGTurret.label>
+  <RT_M249_MGTurret.fireModes.0.label>短点射</RT_M249_MGTurret.fireModes.0.label>
+
+
+  <!-- 炮2 -->
+
+  <RT_M1A2T_SecondaryTurret.label>M2HB遥控机枪</RT_M1A2T_SecondaryTurret.label>
+  <RT_M1A2T_SecondaryTurret.fireModes.0.label>短点射</RT_M1A2T_SecondaryTurret.fireModes.0.label>
+
+
+  <!-- 炮3 -->
+
+  <RT_M2HB_MGTurret.label>M2HB机枪</RT_M2HB_MGTurret.label>
+  <RT_M2HB_MGTurret.fireModes.0.label>短点射</RT_M2HB_MGTurret.fireModes.0.label>
+
+
+  <!-- 主炮的Def -->
+
+</LanguageData>

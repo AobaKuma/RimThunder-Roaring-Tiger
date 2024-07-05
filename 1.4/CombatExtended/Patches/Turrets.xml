@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_M1A2T_SecondaryTurret"]/projectile</xpath>
+				<value>
+					<projectile>Bullet_50BMG_AP</projectile>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_M1A2T_SecondaryTurret"]/reloadTimer</xpath>
+				<value>
+					<reloadTimer>7.8</reloadTimer>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_M1A2T_SecondaryTurret"]//shotSound</xpath>
+				<value>
+					<shotSound>HeavyMG</shotSound>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_M1A2T_SecondaryTurret"]/warmUpTimer</xpath>
+				<value>
+					<warmUpTimer>1.8</warmUpTimer>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_M1A2T_SecondaryTurret"]/magazineCapacity</xpath>
+				<value>
+					<magazineCapacity>100</magazineCapacity>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_M1A2T_SecondaryTurret"]/genericAmmo</xpath>
+				<value>
+					<genericAmmo>false</genericAmmo>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_M1A2T_SecondaryTurret"]/maxRange</xpath>
+				<value>
+					<maxRange>78</maxRange>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_M1A2T_SecondaryTurret"]/fireModes</xpath>
+				<value>
+					<fireModes>
+						<li>
+							<shotsPerBurst>1</shotsPerBurst>
+							<ticksBetweenShots>6</ticksBetweenShots>
+							<ticksBetweenBursts>60</ticksBetweenBursts>
+							<label>Single</label>
+							<texPath>UI/Gizmos/FireRate_Single</texPath>
+						</li>
+						<li>
+							<shotsPerBurst>2</shotsPerBurst>
+							<ticksBetweenShots>6</ticksBetweenShots>
+							<ticksBetweenBursts>60</ticksBetweenBursts>
+							<label>Burst</label>
+							<texPath>UI/Gizmos/FireRate_Burst</texPath>
+						</li>
+						<li>
+							<shotsPerBurst>5</shotsPerBurst>
+							<ticksBetweenShots>6</ticksBetweenShots>
+							<ticksBetweenBursts>60</ticksBetweenBursts>
+							<label>Auto</label>
+							<texPath>UI/Gizmos/FireRate_Auto</texPath>
+						</li>
+					</fireModes>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>
+					Defs/Vehicles.VehicleTurretDef[defName="RT_M1A2T_SecondaryTurret"]/ammunition/thingDefs</xpath>
+				<value>
+					<thingDefs>
+						<li>Ammo_50BMG_FMJ</li>
+						<li>Ammo_50BMG_AP</li>
+						<li>Ammo_50BMG_Incendiary</li>
+						<li>Ammo_50BMG_HE</li>
+						<li>Ammo_50BMG_Sabot</li>
+					</thingDefs>
+				</value>
+			</li>
+
+			<li Class="PatchOperationAddModExtension">
+				<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_M1A2T_SecondaryTurret"]</xpath>
+				<value>
+					<li Class="Vehicles.CETurretDataDefModExtension">
+						<ammoSet>AmmoSet_50BMG</ammoSet>
+						<shotHeight>2.25</shotHeight>
+						<speed>182</speed>
+						<sway>1.61</sway>
+						<spread>0.01</spread>
+					</li>
+				</value>
+			</li>
+
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_M2HB_MGTurret"]/projectile</xpath>
+				<value>
+					<projectile>Bullet_50BMG_AP</projectile>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_M2HB_MGTurret"]/reloadTimer</xpath>
+				<value>
+					<reloadTimer>7.8</reloadTimer>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_M2HB_MGTurret"]//shotSound</xpath>
+				<value>
+					<shotSound>HeavyMG</shotSound>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_M2HB_MGTurret"]/warmUpTimer</xpath>
+				<value>
+					<warmUpTimer>1.8</warmUpTimer>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_M2HB_MGTurret"]/magazineCapacity</xpath>
+				<value>
+					<magazineCapacity>100</magazineCapacity>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_M2HB_MGTurret"]/genericAmmo</xpath>
+				<value>
+					<genericAmmo>false</genericAmmo>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_M2HB_MGTurret"]/maxRange</xpath>
+				<value>
+					<maxRange>78</maxRange>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_M2HB_MGTurret"]/fireModes</xpath>
+				<value>
+					<fireModes>
+						<li>
+							<shotsPerBurst>1</shotsPerBurst>
+							<ticksBetweenShots>6</ticksBetweenShots>
+							<ticksBetweenBursts>60</ticksBetweenBursts>
+							<label>Single</label>
+							<texPath>UI/Gizmos/FireRate_Single</texPath>
+						</li>
+						<li>
+							<shotsPerBurst>2</shotsPerBurst>
+							<ticksBetweenShots>6</ticksBetweenShots>
+							<ticksBetweenBursts>60</ticksBetweenBursts>
+							<label>Burst</label>
+							<texPath>UI/Gizmos/FireRate_Burst</texPath>
+						</li>
+						<li>
+							<shotsPerBurst>5</shotsPerBurst>
+							<ticksBetweenShots>6</ticksBetweenShots>
+							<ticksBetweenBursts>60</ticksBetweenBursts>
+							<label>Auto</label>
+							<texPath>UI/Gizmos/FireRate_Auto</texPath>
+						</li>
+					</fireModes>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>
+					Defs/Vehicles.VehicleTurretDef[defName="RT_M2HB_MGTurret"]/ammunition/thingDefs</xpath>
+				<value>
+					<thingDefs>
+						<li>Ammo_50BMG_FMJ</li>
+						<li>Ammo_50BMG_AP</li>
+						<li>Ammo_50BMG_Incendiary</li>
+						<li>Ammo_50BMG_HE</li>
+						<li>Ammo_50BMG_Sabot</li>
+					</thingDefs>
+				</value>
+			</li>
+
+			<li Class="PatchOperationAddModExtension">
+				<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_M2HB_MGTurret"]</xpath>
+				<value>
+					<li Class="Vehicles.CETurretDataDefModExtension">
+						<ammoSet>AmmoSet_50BMG</ammoSet>
+						<shotHeight>2.25</shotHeight>
+						<speed>182</speed>
+						<sway>1.61</sway>
+						<spread>0.01</spread>
+					</li>
+				</value>
+			</li>
+
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_M249_MGTurret"]/projectile</xpath>
+				<value>
+					<projectile>Bullet_762x51mmNATO_FMJ</projectile>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_M249_MGTurret"]/reloadTimer</xpath>
+				<value>
+					<reloadTimer>7.8</reloadTimer>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_M249_MGTurret"]//shotSound</xpath>
+				<value>
+					<shotSound>MediumMG</shotSound>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_M249_MGTurret"]/warmUpTimer</xpath>
+				<value>
+					<warmUpTimer>1.2</warmUpTimer>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_M249_MGTurret"]/magazineCapacity</xpath>
+				<value>
+					<magazineCapacity>200</magazineCapacity>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_M249_MGTurret"]/genericAmmo</xpath>
+				<value>
+					<genericAmmo>false</genericAmmo>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_M249_MGTurret"]/maxRange</xpath>
+				<value>
+					<maxRange>55</maxRange>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_M249_MGTurret"]/fireModes</xpath>
+				<value>
+					<fireModes>
+						<li>
+							<shotsPerBurst>1</shotsPerBurst>
+							<ticksBetweenShots>6</ticksBetweenShots>
+							<ticksBetweenBursts>60</ticksBetweenBursts>
+							<label>Single</label>
+							<texPath>UI/Gizmos/FireRate_Single</texPath>
+						</li>
+						<li>
+							<shotsPerBurst>5</shotsPerBurst>
+							<ticksBetweenShots>6</ticksBetweenShots>
+							<ticksBetweenBursts>60</ticksBetweenBursts>
+							<label>Burst</label>
+							<texPath>UI/Gizmos/FireRate_Burst</texPath>
+						</li>
+						<li>
+							<shotsPerBurst>10</shotsPerBurst>
+							<ticksBetweenShots>6</ticksBetweenShots>
+							<ticksBetweenBursts>60</ticksBetweenBursts>
+							<label>Auto</label>
+							<texPath>UI/Gizmos/FireRate_Auto</texPath>
+						</li>
+					</fireModes>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>
+					Defs/Vehicles.VehicleTurretDef[defName="RT_M249_MGTurret"]/ammunition/thingDefs</xpath>
+				<value>
+					<thingDefs>
+						<li>Ammo_762x51mmNATO_FMJ</li>
+						<li>Ammo_762x51mmNATO_AP</li>
+						<li>Ammo_762x51mmNATO_HP</li>
+						<li>Ammo_762x51mmNATO_Incendiary</li>
+						<li>Ammo_762x51mmNATO_HE</li>
+						<li>Ammo_762x51mmNATO_Sabot</li>
+					</thingDefs>
+				</value>
+			</li>
+
+			<li Class="PatchOperationAddModExtension">
+				<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_M249_MGTurret"]</xpath>
+				<value>
+					<li Class="Vehicles.CETurretDataDefModExtension">
+						<ammoSet>AmmoSet_762x51mmNATO</ammoSet>
+						<shotHeight>2.0</shotHeight>
+						<speed>156</speed>
+						<sway>0.96</sway>
+						<spread>0.04</spread>
+					</li>
+				</value>
+			</li>
+
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_M249_MGTurret_HEMTT"]/projectile</xpath>
+				<value>
+					<projectile>Bullet_762x51mmNATO_FMJ</projectile>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_M249_MGTurret_HEMTT"]/reloadTimer</xpath>
+				<value>
+					<reloadTimer>7.8</reloadTimer>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_M249_MGTurret"]//shotSound</xpath>
+				<value>
+					<shotSound>MediumMG</shotSound>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_M249_MGTurret_HEMTT"]/warmUpTimer</xpath>
+				<value>
+					<warmUpTimer>1.2</warmUpTimer>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_M249_MGTurret_HEMTT"]/magazineCapacity</xpath>
+				<value>
+					<magazineCapacity>200</magazineCapacity>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_M249_MGTurret_HEMTT"]/genericAmmo</xpath>
+				<value>
+					<genericAmmo>false</genericAmmo>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_M249_MGTurret_HEMTT"]/maxRange</xpath>
+				<value>
+					<maxRange>55</maxRange>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_M249_MGTurret_HEMTT"]/fireModes</xpath>
+				<value>
+					<fireModes>
+						<li>
+							<shotsPerBurst>1</shotsPerBurst>
+							<ticksBetweenShots>6</ticksBetweenShots>
+							<ticksBetweenBursts>60</ticksBetweenBursts>
+							<label>Single</label>
+							<texPath>UI/Gizmos/FireRate_Single</texPath>
+						</li>
+						<li>
+							<shotsPerBurst>5</shotsPerBurst>
+							<ticksBetweenShots>6</ticksBetweenShots>
+							<ticksBetweenBursts>60</ticksBetweenBursts>
+							<label>Burst</label>
+							<texPath>UI/Gizmos/FireRate_Burst</texPath>
+						</li>
+						<li>
+							<shotsPerBurst>10</shotsPerBurst>
+							<ticksBetweenShots>6</ticksBetweenShots>
+							<ticksBetweenBursts>60</ticksBetweenBursts>
+							<label>Auto</label>
+							<texPath>UI/Gizmos/FireRate_Auto</texPath>
+						</li>
+					</fireModes>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>
+					Defs/Vehicles.VehicleTurretDef[defName="RT_M249_MGTurret_HEMTT"]/ammunition/thingDefs</xpath>
+				<value>
+					<thingDefs>
+						<li>Ammo_762x51mmNATO_FMJ</li>
+						<li>Ammo_762x51mmNATO_AP</li>
+						<li>Ammo_762x51mmNATO_HP</li>
+						<li>Ammo_762x51mmNATO_Incendiary</li>
+						<li>Ammo_762x51mmNATO_HE</li>
+						<li>Ammo_762x51mmNATO_Sabot</li>
+					</thingDefs>
+				</value>
+			</li>
+
+			<li Class="PatchOperationAddModExtension">
+				<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_M249_MGTurret_HEMTT"]</xpath>
+				<value>
+					<li Class="Vehicles.CETurretDataDefModExtension">
+						<ammoSet>AmmoSet_762x51mmNATO</ammoSet>
+						<shotHeight>2.0</shotHeight>
+						<speed>156</speed>
+						<sway>0.96</sway>
+						<spread>0.04</spread>
+					</li>
+				</value>
+			</li>
+
+		</operations>
+	</Operation>
+
+</Patch>
