@@ -19,13 +19,6 @@
 			</li>
 
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_M1A2T_SecondaryTurret"]//shotSound</xpath>
-				<value>
-					<shotSound>HeavyMG</shotSound>
-				</value>
-			</li>
-
-			<li Class="PatchOperationReplace">
 				<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_M1A2T_SecondaryTurret"]/warmUpTimer</xpath>
 				<value>
 					<warmUpTimer>1.8</warmUpTimer>
@@ -58,14 +51,7 @@
 				<value>
 					<fireModes>
 						<li>
-							<shotsPerBurst>1</shotsPerBurst>
-							<ticksBetweenShots>6</ticksBetweenShots>
-							<ticksBetweenBursts>60</ticksBetweenBursts>
-							<label>Single</label>
-							<texPath>UI/Gizmos/FireRate_Single</texPath>
-						</li>
-						<li>
-							<shotsPerBurst>2</shotsPerBurst>
+							<shotsPerBurst>3</shotsPerBurst>
 							<ticksBetweenShots>6</ticksBetweenShots>
 							<ticksBetweenBursts>60</ticksBetweenBursts>
 							<label>Burst</label>
@@ -77,6 +63,13 @@
 							<ticksBetweenBursts>60</ticksBetweenBursts>
 							<label>Auto</label>
 							<texPath>UI/Gizmos/FireRate_Auto</texPath>
+						</li>
+						<li>
+							<shotsPerBurst>1</shotsPerBurst>
+							<ticksBetweenShots>6</ticksBetweenShots>
+							<ticksBetweenBursts>60</ticksBetweenBursts>
+							<label>Single</label>
+							<texPath>UI/Gizmos/FireRate_Single</texPath>
 						</li>
 					</fireModes>
 				</value>
@@ -128,13 +121,6 @@
 					<reloadTimer>7.8</reloadTimer>
 				</value>
 			</li>
-			
-			<li Class="PatchOperationReplace">
-				<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_M2HB_MGTurret"]//shotSound</xpath>
-				<value>
-					<shotSound>HeavyMG</shotSound>
-				</value>
-			</li>
 
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_M2HB_MGTurret"]/warmUpTimer</xpath>
@@ -169,14 +155,7 @@
 				<value>
 					<fireModes>
 						<li>
-							<shotsPerBurst>1</shotsPerBurst>
-							<ticksBetweenShots>6</ticksBetweenShots>
-							<ticksBetweenBursts>60</ticksBetweenBursts>
-							<label>Single</label>
-							<texPath>UI/Gizmos/FireRate_Single</texPath>
-						</li>
-						<li>
-							<shotsPerBurst>2</shotsPerBurst>
+							<shotsPerBurst>3</shotsPerBurst>
 							<ticksBetweenShots>6</ticksBetweenShots>
 							<ticksBetweenBursts>60</ticksBetweenBursts>
 							<label>Burst</label>
@@ -188,6 +167,13 @@
 							<ticksBetweenBursts>60</ticksBetweenBursts>
 							<label>Auto</label>
 							<texPath>UI/Gizmos/FireRate_Auto</texPath>
+						</li>
+						<li>
+							<shotsPerBurst>1</shotsPerBurst>
+							<ticksBetweenShots>6</ticksBetweenShots>
+							<ticksBetweenBursts>60</ticksBetweenBursts>
+							<label>Single</label>
+							<texPath>UI/Gizmos/FireRate_Single</texPath>
 						</li>
 					</fireModes>
 				</value>
@@ -241,13 +227,6 @@
 			</li>
 
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_M249_MGTurret"]//shotSound</xpath>
-				<value>
-					<shotSound>MediumMG</shotSound>
-				</value>
-			</li>
-
-			<li Class="PatchOperationReplace">
 				<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_M249_MGTurret"]/warmUpTimer</xpath>
 				<value>
 					<warmUpTimer>1.2</warmUpTimer>
@@ -280,13 +259,6 @@
 				<value>
 					<fireModes>
 						<li>
-							<shotsPerBurst>1</shotsPerBurst>
-							<ticksBetweenShots>6</ticksBetweenShots>
-							<ticksBetweenBursts>60</ticksBetweenBursts>
-							<label>Single</label>
-							<texPath>UI/Gizmos/FireRate_Single</texPath>
-						</li>
-						<li>
 							<shotsPerBurst>5</shotsPerBurst>
 							<ticksBetweenShots>6</ticksBetweenShots>
 							<ticksBetweenBursts>60</ticksBetweenBursts>
@@ -299,6 +271,13 @@
 							<ticksBetweenBursts>60</ticksBetweenBursts>
 							<label>Auto</label>
 							<texPath>UI/Gizmos/FireRate_Auto</texPath>
+						</li>
+						<li>
+							<shotsPerBurst>1</shotsPerBurst>
+							<ticksBetweenShots>6</ticksBetweenShots>
+							<ticksBetweenBursts>60</ticksBetweenBursts>
+							<label>Single</label>
+							<texPath>UI/Gizmos/FireRate_Single</texPath>
 						</li>
 					</fireModes>
 				</value>
@@ -353,13 +332,6 @@
 			</li>
 
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_M249_MGTurret"]//shotSound</xpath>
-				<value>
-					<shotSound>MediumMG</shotSound>
-				</value>
-			</li>
-
-			<li Class="PatchOperationReplace">
 				<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_M249_MGTurret_HEMTT"]/warmUpTimer</xpath>
 				<value>
 					<warmUpTimer>1.2</warmUpTimer>
@@ -391,13 +363,7 @@
 				<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_M249_MGTurret_HEMTT"]/fireModes</xpath>
 				<value>
 					<fireModes>
-						<li>
-							<shotsPerBurst>1</shotsPerBurst>
-							<ticksBetweenShots>6</ticksBetweenShots>
-							<ticksBetweenBursts>60</ticksBetweenBursts>
-							<label>Single</label>
-							<texPath>UI/Gizmos/FireRate_Single</texPath>
-						</li>
+						
 						<li>
 							<shotsPerBurst>5</shotsPerBurst>
 							<ticksBetweenShots>6</ticksBetweenShots>
@@ -411,6 +377,13 @@
 							<ticksBetweenBursts>60</ticksBetweenBursts>
 							<label>Auto</label>
 							<texPath>UI/Gizmos/FireRate_Auto</texPath>
+						</li>
+						<li>
+							<shotsPerBurst>1</shotsPerBurst>
+							<ticksBetweenShots>6</ticksBetweenShots>
+							<ticksBetweenBursts>60</ticksBetweenBursts>
+							<label>Single</label>
+							<texPath>UI/Gizmos/FireRate_Single</texPath>
 						</li>
 					</fireModes>
 				</value>
@@ -443,6 +416,27 @@
 					</li>
 				</value>
 			</li>
+
+			<!-- 武器音效替换 -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_M1A2T_SecondaryTurret"]/shotSound</xpath>
+				<value>
+					<shotSound>50Cal_Browning</shotSound>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_M2HB_MGTurret"]/shotSound</xpath>
+				<value>
+					<shotSound>50Cal_Browning</shotSound>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_M249_MGTurret"]/shotSound</xpath>
+				<value>
+					<shotSound>MediumMG</shotSound>
+				</value>
+			</li>
+			
 
 		</operations>
 	</Operation>
