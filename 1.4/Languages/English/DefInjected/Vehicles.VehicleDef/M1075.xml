@@ -2,7 +2,7 @@
 <LanguageData>
 
   <RT_M1075_HEMTT.label>M1075 HEMTT</RT_M1075_HEMTT.label>
-  <RT_M1075_HEMTT.description>an eight-wheel drive, diesel-powered tactical truck with 9 tons of cargo capacities, equipped a 7.62mm self-defence machine gun.</RT_M1075_HEMTT.description>
+  <RT_M1075_HEMTT.description>an eight-wheel drive, diesel-powered tactical truck with 9 tons of cargo capacities, equipped a 7.62mm self-defence machine gun.\n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Passenger x1\n&lt;color=#bb8f04&gt;Fuel:&lt;/color&gt; Chemfuel</RT_M1075_HEMTT.description>
   <RT_M1075_HEMTT.properties.roles.0.label>Driver</RT_M1075_HEMTT.properties.roles.0.label>
   <RT_M1075_HEMTT.properties.roles.1.label>Passenger</RT_M1075_HEMTT.properties.roles.1.label>
   <RT_M1075_HEMTT.components.0.label>Engine</RT_M1075_HEMTT.components.0.label>

@@ -4,7 +4,7 @@
   <!-- 載具本體 -->
 
   <RT_M1A2_MainBattleTank.label>M1A2 MBT</RT_M1A2_MainBattleTank.label>
-  <RT_M1A2_MainBattleTank.description>A powerful MBT from a by-gone era, produced for foreign military trade. Equipped with a 120 mm smoothbore cannon and multiple machine gun armaments.</RT_M1A2_MainBattleTank.description>
+  <RT_M1A2_MainBattleTank.description>A powerful MBT from a by-gone era, produced for foreign military trade. Equipped with a 120 mm smoothbore cannon and multiple machine gun armaments.\n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Gunner x2，Passenger x1\n&lt;color=#bb8f04&gt;Fuel:&lt;/color&gt; Chemfuel</RT_M1A2_MainBattleTank.description>
   <RT_M1A2_MainBattleTank.properties.roles.0.label>driver</RT_M1A2_MainBattleTank.properties.roles.0.label>
   <RT_M1A2_MainBattleTank.properties.roles.1.label>gunner</RT_M1A2_MainBattleTank.properties.roles.1.label>
   <RT_M1A2_MainBattleTank.components.0.label>turbine engine</RT_M1A2_MainBattleTank.components.0.label>

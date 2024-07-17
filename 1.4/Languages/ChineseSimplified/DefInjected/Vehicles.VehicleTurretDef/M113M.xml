@@ -5,7 +5,7 @@
 
   <RT_M113M_APC_Turret.label>迫击炮</RT_M113M_APC_Turret.label>
   <RT_M113M_APC_Turret.fireModes.0.label>单发射击</RT_M113M_APC_Turret.fireModes.0.label>
-  <RT_M113M_APC_Turret.gizmoDescription>选择目标。\n\n效力射\n\n&lt;color=#b0e0e6&gt;CE弹药类型:&lt;/color&gt; 81mm迫击炮弹</RT_M113M_APC_Turret.gizmoDescription>
+  <RT_M113M_APC_Turret.gizmoDescription>选择目标。\n\n效力射\n\n&lt;color=#b0e0e6&gt;CE弹药类型::&lt;/color&gt; 81mm 迫击炮弹</RT_M113M_APC_Turret.gizmoDescription>
 
   <!-- 主炮的Def -->
 

@@ -3,10 +3,9 @@
 
   <!-- 主砲的Def -->
 
-  <RT_M113M_APC_Turret.label>迫擊炮</RT_M113M_APC_Turret.label>
+  <RT_M113M_APC_Turret.label>迫擊砲</RT_M113M_APC_Turret.label>
   <RT_M113M_APC_Turret.fireModes.0.label>單發射擊</RT_M113M_APC_Turret.fireModes.0.label>
-  <RT_M113M_APC_Turret.gizmoDescription>選擇目標。\n\n效力射\n\n&lt;color=#b0e0e6&gt;CE彈藥類型:&lt;/color&gt; 81mm迫擊炮彈</RT_M113M_APC_Turret.gizmoDescription>
+  <RT_M113M_APC_Turret.gizmoDescription>選擇目標。\n\n效力射\n\n&lt;color=#b0e0e6&gt;CE彈藥類型::&lt;/color&gt; 81mm 迫擊炮彈</RT_M113M_APC_Turret.gizmoDescription>
 
-  <!-- 主炮的Def -->
 
 </LanguageData>

@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <RT_M113_APC_Blueprint.label>M113</RT_M113_APC_Blueprint.label>
-  <RT_M113_APC_Blueprint.description>同样是一款因战争秀而在边缘世界泛滥的古董级装备，但因为其优秀的性能与改装空间而被边缘世界的人们用于武装押运与机械化协同作战，配备一挺用于自保的12.7毫米机枪。\n\n&lt;color=#bb8f04&gt;乘员:&lt;/color&gt; 驾驶员 x1, 机枪手 x1，乘客 x8\n&lt;color=#bb8f04&gt;燃料种类:&lt;/color&gt; 化合燃料\n\n&lt;color=#b0e0e6&gt;CE弹药类型:&lt;/color&gt; \n.50 BMG（车顶机枪）</RT_M113_APC_Blueprint.description>
+  <RT_M113_APC_Blueprint.label>M113装甲运输车</RT_M113_APC_Blueprint.label>
+	<RT_M113_APC_Blueprint.description>同样是一款因战争秀而在边缘世界泛滥的古董级装备,但因为其优秀的性能与改装空间而被边缘世界的人们用于武装押运与机械化协同作战,配备一挺用于自保的12.7毫米机枪.\n\n&lt;color=#bb8f04&gt;乘员:&lt;/color&gt; 驾驶员 x1, 炮手 x1 乘客x8\n&lt;color=#bb8f04&gt;燃料种类:&lt;/color&gt; 化合燃料</RT_M113_APC_Blueprint.description>
 
 
 </LanguageData>

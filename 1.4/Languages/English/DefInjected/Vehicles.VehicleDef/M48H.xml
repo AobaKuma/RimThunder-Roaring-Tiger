@@ -4,7 +4,7 @@
   <!-- 載具本體 -->
 
   <RT_M48H_MediumTank.label>M48H Medium Tank</RT_M48H_MediumTank.label>
-  <RT_M48H_MediumTank.description>A medium MBT from a by-gone era, designed for use in jungle and mountainous encounters. After undergoing a modern refit, it was mass-produced for the televised "Iron Fists" Equipped with a 105 mm cannon and two 7.62 mm machine gun armaments.</RT_M48H_MediumTank.description>
+  <RT_M48H_MediumTank.description>A medium MBT from a by-gone era, designed for use in jungle and mountainous encounters. After undergoing a modern refit, it was mass-produced for the televised "Iron Fists" Equipped with a 105 mm cannon and two 7.62 mm machine gun armaments.\n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Gunner x2，Passenger x1\n&lt;color=#bb8f04&gt;Fuel:&lt;/color&gt; Chemfuel</RT_M48H_MediumTank.description>
   <RT_M48H_MediumTank.properties.roles.0.label>driver</RT_M48H_MediumTank.properties.roles.0.label>
   <RT_M48H_MediumTank.properties.roles.1.label>gunner</RT_M48H_MediumTank.properties.roles.1.label>
   <RT_M48H_MediumTank.components.0.label>Engine</RT_M48H_MediumTank.components.0.label>

@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  
-  <RT_M1A2_MainBattleTank_Blueprint.label>M1A2T艾布拉姆斯</RT_M1A2_MainBattleTank_Blueprint.label>
-  <RT_M1A2_MainBattleTank_Blueprint.description>一种性能强劲的老式第三代主战坦克，使用燃气轮机驱动以带来可观的机动性，在殖民时代曾被大量外销与授权生产，装备了一门120mm口径火炮与大量为边缘世界作战环境需要而安装的防御机枪。\n\n&lt;color=#bb8f04&gt;乘员:&lt;/color&gt; 驾驶员 x2, 炮手 x2\n&lt;color=#bb8f04&gt;燃料种类:&lt;/color&gt; 化合燃料\n\n&lt;color=#b0e0e6&gt;CE弹药类型:&lt;/color&gt; \n120mm加农炮弹（主炮）\n.50 BMG（武器站、炮管机枪）\n7.62x51mm NATO（车顶机枪、同轴机枪）</RT_M1A2_MainBattleTank_Blueprint.description>
+
+  <RT_M1A2_MainBattleTank_Blueprint.label>M1A2主战坦克</RT_M1A2_MainBattleTank_Blueprint.label>
+  <RT_M1A2_MainBattleTank_Blueprint.description>一种性能强劲的老式第三代主力坦克,使用燃气涡轮引擎驱动以带来可观的机动性,在殖民时代曾被大量的外销与授权生产,装备了一门120口径的线膛加农炮与大量为边缘世界作战环境需要而安装的防御机枪.\n\n&lt;color=#bb8f04&gt;乘员:&lt;/color&gt; 驾驶员 x1, 炮手 x2 乘客x1\n&lt;color=#bb8f04&gt;燃料种类:&lt;/color&gt; 化合燃料</RT_M1A2_MainBattleTank_Blueprint.description>
 
 
 </LanguageData>
