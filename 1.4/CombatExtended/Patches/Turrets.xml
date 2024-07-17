@@ -58,13 +58,6 @@
 				<value>
 					<fireModes>
 						<li>
-							<shotsPerBurst>1</shotsPerBurst>
-							<ticksBetweenShots>6</ticksBetweenShots>
-							<ticksBetweenBursts>60</ticksBetweenBursts>
-							<label>Single</label>
-							<texPath>UI/Gizmos/FireRate_Single</texPath>
-						</li>
-						<li>
 							<shotsPerBurst>2</shotsPerBurst>
 							<ticksBetweenShots>6</ticksBetweenShots>
 							<ticksBetweenBursts>60</ticksBetweenBursts>
@@ -78,6 +71,14 @@
 							<label>Auto</label>
 							<texPath>UI/Gizmos/FireRate_Auto</texPath>
 						</li>
+						<li>
+							<shotsPerBurst>1</shotsPerBurst>
+							<ticksBetweenShots>6</ticksBetweenShots>
+							<ticksBetweenBursts>60</ticksBetweenBursts>
+							<label>Single</label>
+							<texPath>UI/Gizmos/FireRate_Single</texPath>
+						</li>
+						
 					</fireModes>
 				</value>
 			</li>
@@ -169,13 +170,6 @@
 				<value>
 					<fireModes>
 						<li>
-							<shotsPerBurst>1</shotsPerBurst>
-							<ticksBetweenShots>6</ticksBetweenShots>
-							<ticksBetweenBursts>60</ticksBetweenBursts>
-							<label>Single</label>
-							<texPath>UI/Gizmos/FireRate_Single</texPath>
-						</li>
-						<li>
 							<shotsPerBurst>2</shotsPerBurst>
 							<ticksBetweenShots>6</ticksBetweenShots>
 							<ticksBetweenBursts>60</ticksBetweenBursts>
@@ -189,6 +183,14 @@
 							<label>Auto</label>
 							<texPath>UI/Gizmos/FireRate_Auto</texPath>
 						</li>
+						<li>
+							<shotsPerBurst>1</shotsPerBurst>
+							<ticksBetweenShots>6</ticksBetweenShots>
+							<ticksBetweenBursts>60</ticksBetweenBursts>
+							<label>Single</label>
+							<texPath>UI/Gizmos/FireRate_Single</texPath>
+						</li>
+						
 					</fireModes>
 				</value>
 			</li>
@@ -280,13 +282,6 @@
 				<value>
 					<fireModes>
 						<li>
-							<shotsPerBurst>1</shotsPerBurst>
-							<ticksBetweenShots>6</ticksBetweenShots>
-							<ticksBetweenBursts>60</ticksBetweenBursts>
-							<label>Single</label>
-							<texPath>UI/Gizmos/FireRate_Single</texPath>
-						</li>
-						<li>
 							<shotsPerBurst>5</shotsPerBurst>
 							<ticksBetweenShots>6</ticksBetweenShots>
 							<ticksBetweenBursts>60</ticksBetweenBursts>
@@ -300,6 +295,14 @@
 							<label>Auto</label>
 							<texPath>UI/Gizmos/FireRate_Auto</texPath>
 						</li>
+						<li>
+							<shotsPerBurst>1</shotsPerBurst>
+							<ticksBetweenShots>6</ticksBetweenShots>
+							<ticksBetweenBursts>60</ticksBetweenBursts>
+							<label>Single</label>
+							<texPath>UI/Gizmos/FireRate_Single</texPath>
+						</li>
+						
 					</fireModes>
 				</value>
 			</li>
@@ -392,13 +395,6 @@
 				<value>
 					<fireModes>
 						<li>
-							<shotsPerBurst>1</shotsPerBurst>
-							<ticksBetweenShots>6</ticksBetweenShots>
-							<ticksBetweenBursts>60</ticksBetweenBursts>
-							<label>Single</label>
-							<texPath>UI/Gizmos/FireRate_Single</texPath>
-						</li>
-						<li>
 							<shotsPerBurst>5</shotsPerBurst>
 							<ticksBetweenShots>6</ticksBetweenShots>
 							<ticksBetweenBursts>60</ticksBetweenBursts>
@@ -412,6 +408,14 @@
 							<label>Auto</label>
 							<texPath>UI/Gizmos/FireRate_Auto</texPath>
 						</li>
+						<li>
+							<shotsPerBurst>1</shotsPerBurst>
+							<ticksBetweenShots>6</ticksBetweenShots>
+							<ticksBetweenBursts>60</ticksBetweenBursts>
+							<label>Single</label>
+							<texPath>UI/Gizmos/FireRate_Single</texPath>
+						</li>
+						
 					</fireModes>
 				</value>
 			</li>

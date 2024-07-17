@@ -420,7 +420,7 @@
 	
 	<Vehicles.VehicleTurretDef ParentName="RT_BaseTurret">
 		<defName>RT_M249_MGTurret_HEMTT</defName>
-		<label>m249 machine gun</label>
+		<label>M240 machine gun</label>
 		<!-- 砲塔的渲染顯示 -->
 		<graphicData>
 			<texPath>Vehicles/M1A2T/topGunHEMTT</texPath>

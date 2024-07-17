@@ -4,7 +4,7 @@
   <!-- 載具本體 -->
 
   <RT_M113_APC.label>M113裝甲運輸車</RT_M113_APC.label>
-  <RT_M113_APC.description>同樣是一款因戰爭秀而在邊緣世界氾濫的古董級裝備,但因為其優秀的性能與改裝空間而被邊緣世界的人們用於武裝押運與機械化協同作戰,配備一挺用於自保的12.7毫米機槍.</RT_M113_APC.description>
+  <RT_M113_APC_Blueprint.description>同樣是一款因戰爭秀而在邊緣世界氾濫的古董級裝備,但因為其優秀的性能與改裝空間而被邊緣世界的人們用於武裝押運與機械化協同作戰,配備一挺用於自保的12.7毫米機槍.\n\n&lt;color=#bb8f04&gt;乘員:&lt;/color&gt; 駕駛員 x1, 炮手 x1 乘客x8\n&lt;color=#bb8f04&gt;燃料種類:&lt;/color&gt; 化合燃料</RT_M113_APC_Blueprint.description>
   <RT_M113_APC.properties.roles.0.label>駕駛員</RT_M113_APC.properties.roles.0.label>
   <RT_M113_APC.properties.roles.1.label>頂部機槍手</RT_M113_APC.properties.roles.1.label>
   <RT_M113_APC.properties.roles.2.label>乘員</RT_M113_APC.properties.roles.2.label>

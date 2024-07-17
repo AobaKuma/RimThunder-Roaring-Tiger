@@ -5,25 +5,31 @@
 
   <RT_M1A2_Tank_Turret.label>120毫米坦克炮</RT_M1A2_Tank_Turret.label>
   <RT_M1A2_Tank_Turret.fireModes.0.label>单发射击</RT_M1A2_Tank_Turret.fireModes.0.label>
-  <RT_M1A2_Tank_Turret.gizmoDescription>选择目标。\n\n效力射\n\n&lt;color=#b0e0e6&gt;CE弹药类型:&lt;/color&gt; 120mm加农炮弹</RT_M1A2_Tank_Turret.gizmoDescription>
+
 
   <!-- 炮1 -->
 
-  <RT_M249_MGTurret.label>M249机枪</RT_M249_MGTurret.label>
+  <RT_M249_MGTurret.label>M240机枪</RT_M249_MGTurret.label>
   <RT_M249_MGTurret.fireModes.0.label>短点射</RT_M249_MGTurret.fireModes.0.label>
-  <RT_M249_MGTurret.gizmoDescription>选择目标。\n\n效力射\n\n&lt;color=#b0e0e6&gt;CE弹药类型:&lt;/color&gt; 7.62x51 NATO</RT_M249_MGTurret.gizmoDescription>
+  <RT_M249_MGTurret.fireModes.1.label>连射</RT_M249_MGTurret.fireModes.1.label>
+  <RT_M249_MGTurret.fireModes.2.label>单发</RT_M249_MGTurret.fireModes.2.label>
+
 
   <!-- 炮2 -->
 
   <RT_M1A2T_SecondaryTurret.label>M2HB遥控机枪</RT_M1A2T_SecondaryTurret.label>
   <RT_M1A2T_SecondaryTurret.fireModes.0.label>短点射</RT_M1A2T_SecondaryTurret.fireModes.0.label>
-  <RT_M1A2T_SecondaryTurret.gizmoDescription>选择目标。\n\n效力射\n\n&lt;color=#b0e0e6&gt;CE弹药类型:&lt;/color&gt; .50 BMG</RT_M1A2T_SecondaryTurret.gizmoDescription>
+  <RT_M1A2T_SecondaryTurret.fireModes.1.label>连射</RT_M1A2T_SecondaryTurret.fireModes.1.label>
+  <RT_M1A2T_SecondaryTurret.fireModes.2.label>单发</RT_M1A2T_SecondaryTurret.fireModes.2.label>
+
 
   <!-- 炮3 -->
 
   <RT_M2HB_MGTurret.label>M2HB机枪</RT_M2HB_MGTurret.label>
   <RT_M2HB_MGTurret.fireModes.0.label>短点射</RT_M2HB_MGTurret.fireModes.0.label>
-  <RT_M2HB_MGTurret.gizmoDescription>选择目标。\n\n效力射\n\n&lt;color=#b0e0e6&gt;CE弹药类型:&lt;/color&gt; .50 BMG</RT_M2HB_MGTurret.gizmoDescription>
+  <RT_M2HB_MGTurret.fireModes.1.label>连射</RT_M2HB_MGTurret.fireModes.1.label>
+  <RT_M2HB_MGTurret.fireModes.2.label>单发</RT_M2HB_MGTurret.fireModes.2.label>
+
 
   <!-- 主炮的Def -->
 

@@ -5,25 +5,30 @@
 
   <RT_M1A2_Tank_Turret.label>main turret</RT_M1A2_Tank_Turret.label>
   <RT_M1A2_Tank_Turret.fireModes.0.label>Single Shot</RT_M1A2_Tank_Turret.fireModes.0.label>
-  <RT_M1A2_Tank_Turret.gizmoDescription>Select Target.\n\nFire for effect\n\n&lt;color=#b0e0e6&gt;CE Ammo:&lt;/color&gt; 120mm Cannon shell</RT_M1A2_Tank_Turret.gizmoDescription>
 
 
   <!-- 炮1 -->
 
-  <RT_M249_MGTurret.label>m249 machine gun</RT_M249_MGTurret.label>
-  <RT_M249_MGTurret.fireModes.0.label>Burst</RT_M249_MGTurret.fireModes.0.label>
-  <RT_M249_MGTurret.gizmoDescription>Select Target.\n\nFire for effect\n\n&lt;color=#b0e0e6&gt;CE Ammo:&lt;/color&gt; 7.62x51mm NATO</RT_M249_MGTurret.gizmoDescription>
+  <RT_M240_MGTurret.label>M240 machine gun</RT_M240_MGTurret.label>
+  <RT_M240_MGTurret.fireModes.0.label>Burst</RT_M240_MGTurret.fireModes.0.label>
+  <RT_M240_MGTurret.fireModes.1.label>Auto</RT_M240_MGTurret.fireModes.1.label>
+  <RT_M240_MGTurret.fireModes.2.label>Single</RT_M240_MGTurret.fireModes.2.label>
+
 
   <!-- 炮2 -->
 
   <RT_M1A2T_SecondaryTurret.label>M2HB machine gun turret</RT_M1A2T_SecondaryTurret.label>
   <RT_M1A2T_SecondaryTurret.fireModes.0.label>Burst</RT_M1A2T_SecondaryTurret.fireModes.0.label>
-  <RT_M1A2T_SecondaryTurret.gizmoDescription>Select Target.\n\nFire for effect\n\n&lt;color=#b0e0e6&gt;CE Ammo:&lt;/color&gt; .50 BMG</RT_M1A2T_SecondaryTurret.gizmoDescription>
+  <RT_M1A2T_SecondaryTurret.fireModes.1.label>Auto</RT_M1A2T_SecondaryTurret.fireModes.1.label>
+  <RT_M1A2T_SecondaryTurret.fireModes.2.label>Single</RT_M1A2T_SecondaryTurret.fireModes.2.label>
+
 
   <!-- 炮3 -->
 
   <RT_M2HB_MGTurret.label>M2HB machine gun</RT_M2HB_MGTurret.label>
   <RT_M2HB_MGTurret.fireModes.0.label>Burst</RT_M2HB_MGTurret.fireModes.0.label>
-  <RT_M2HB_MGTurret.gizmoDescription>Select Target.\n\nFire for effect\n\n&lt;color=#b0e0e6&gt;CE Ammo:&lt;/color&gt; .50 BMG</RT_M2HB_MGTurret.gizmoDescription>
+  <RT_M2HB_MGTurret.fireModes.1.label>Auto</RT_M2HB_MGTurret.fireModes.1.label>
+  <RT_M2HB_MGTurret.fireModes.2.label>Single</RT_M2HB_MGTurret.fireModes.2.label>
+
 
 </LanguageData>

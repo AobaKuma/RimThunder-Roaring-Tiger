@@ -4,7 +4,7 @@
   <!-- 載具本體 -->
 
   <RT_M113M_APC.label>M113(M)迫击炮运载车</RT_M113M_APC.label>
-  <RT_M113M_APC.description>在乘员舱安装了一门81毫米迫击炮的M113装甲运输车,使其能够机动部属与为步兵带来曲射火力支援,但代价是大量减少的载员空间.</RT_M113M_APC.description>
+  <RT_M113M_APC.description>在乘员舱安装了一门81毫米迫击炮的M113装甲运输车,使其能够机动部属与为步兵带来曲射火力支援,但代价是大量减少的载员空间.\n\n&lt;color=#bb8f04&gt;乘员:&lt;/color&gt; 驾驶员 x1, 炮手 x3 乘客x2\n&lt;color=#bb8f04&gt;燃料种类:&lt;/color&gt; 化合燃料</RT_M113M_APC.description>
   <RT_M113M_APC.properties.roles.0.label>驾驶员</RT_M113M_APC.properties.roles.0.label>
   <RT_M113M_APC.properties.roles.1.label>顶部机枪手</RT_M113M_APC.properties.roles.1.label>
   <RT_M113M_APC.properties.roles.2.label>迫击炮手</RT_M113M_APC.properties.roles.2.label>

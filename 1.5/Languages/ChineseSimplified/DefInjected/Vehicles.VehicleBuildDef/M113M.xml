@@ -1,8 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <RT_M113M_APC_Blueprint.label>M113(M)迫击炮运载车</RT_M113M_APC_Blueprint.label>
-  <RT_M113M_APC_Blueprint.description>在乘员舱安装了一门81毫米迫击炮的M113装甲运输车,使其能够机动部属与为步兵带来曲射火力支援,但代价是大量减少的载员空间.</RT_M113M_APC_Blueprint.description>
-
+  <RT_M113M_APC_Blueprint.label>M125迫击炮运载车</RT_M113M_APC_Blueprint.label>
+	<RT_M113M_APC_Blueprint.description>在乘员舱安装了一门81毫米迫击炮的M113装甲运输车,使其能够机动部属与为步兵带来曲射火力支援,但代价是大量减少的载员空间.\n\n&lt;color=#bb8f04&gt;乘员:&lt;/color&gt; 驾驶员 x1, 炮手 x3 乘客x2\n&lt;color=#bb8f04&gt;燃料种类:&lt;/color&gt; 化合燃料</RT_M113M_APC_Blueprint.description>
 
 </LanguageData>

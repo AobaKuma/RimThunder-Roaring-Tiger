@@ -2,7 +2,7 @@
 <LanguageData>
 
   <RT_M1075_HEMTT.label>M1075重型卡车</RT_M1075_HEMTT.label>
-  <RT_M1075_HEMTT.description>一款设计用于后勤补给与运输的十轮驱动重型卡车，也常被昵称"龙卡车", 在其上安装了能够独立完成货柜与载具装卸的液压装置并备配有一挺7.62毫米机枪用于自卫.</RT_M1075_HEMTT.description>
+  <RT_M1075_HEMTT.description>一款设计用于后勤补给与运输的十轮驱动重型卡车，也常被昵称"龙卡车", 在其上安装了能够独立完成货柜与载具装卸的液压装置并备配有一挺7.62毫米机枪用于自卫.\n\n&lt;color=#bb8f04&gt;乘员:&lt;/color&gt; 驾驶员 x1, 副驾驶x1\n&lt;color=#bb8f04&gt;燃料种类:&lt;/color&gt; 化合燃料</RT_M1075_HEMTT.description>
   <RT_M1075_HEMTT.properties.roles.0.label>驾驶员</RT_M1075_HEMTT.properties.roles.0.label>
   <RT_M1075_HEMTT.properties.roles.1.label>副驾驶</RT_M1075_HEMTT.properties.roles.1.label>
   <RT_M1075_HEMTT.components.0.label>引擎</RT_M1075_HEMTT.components.0.label>

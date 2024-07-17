@@ -4,7 +4,7 @@
   <!-- 載具本體 -->
 
   <RT_M1A2_MainBattleTank.label>M1A2主战坦克</RT_M1A2_MainBattleTank.label>
-  <RT_M1A2_MainBattleTank.description>一种性能强劲的老式第三代主力坦克,使用燃气涡轮引擎驱动以带来可观的机动性,在殖民时代曾被大量的外销与授权生产,装备了一门120口径的线膛加农炮与大量为边缘世界作战环境需要而安装的防御机枪.</RT_M1A2_MainBattleTank.description>
+  <RT_M1A2_MainBattleTank.description>一种性能强劲的老式第三代主力坦克,使用燃气涡轮引擎驱动以带来可观的机动性,在殖民时代曾被大量的外销与授权生产,装备了一门120口径的线膛加农炮与大量为边缘世界作战环境需要而安装的防御机枪.\n\n&lt;color=#bb8f04&gt;乘员:&lt;/color&gt; 驾驶员 x1, 炮手 x2 乘客x1\n&lt;color=#bb8f04&gt;燃料种类:&lt;/color&gt; 化合燃料</RT_M1A2_MainBattleTank.description>
   <RT_M1A2_MainBattleTank.properties.roles.0.label>驾驶员</RT_M1A2_MainBattleTank.properties.roles.0.label>
   <RT_M1A2_MainBattleTank.properties.roles.1.label>炮手</RT_M1A2_MainBattleTank.properties.roles.1.label>
   <RT_M1A2_MainBattleTank.properties.roles.2.label>车长</RT_M1A2_MainBattleTank.properties.roles.2.label>

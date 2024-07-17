@@ -620,7 +620,7 @@
 		<projectile>
 			<damageDef>Bomb</damageDef>
 			<damageAmountBase>160</damageAmountBase>
-			<armorPenetrationBase>0.75</armorPenetrationBase>
+			<armorPenetrationBase>0.95</armorPenetrationBase>
 			<speed>85</speed>
 			<explosionRadius>3.9</explosionRadius>
 			<soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
@@ -628,13 +628,23 @@
 			<soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
 			<soundAmbient>MortarRound_Ambient</soundAmbient>
 		</projectile>
+		<comps>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>3.9</explosiveRadius>
+				<explosiveDamageType>Stun</explosiveDamageType>
+				<damageAmountBase>12</damageAmountBase>
+				<explodeOnDestroyed>true</explodeOnDestroyed>
+				<explodeOnKilled>true</explodeOnKilled>
+				<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+			</li>
+		</comps>
 	</ThingDef>
 
 	<!-- MGs -->
 	<!-- 炮1 -->
 	<Vehicles.VehicleTurretDef ParentName="RT_BaseTurret">
 		<defName>RT_M249_MGTurret</defName>
-		<label>m249 machine gun</label>
+		<label>M240 machine gun</label>
 		<!-- 砲塔的渲染顯示 -->
 		<graphicData>
 			<texPath>Vehicles/M1A2T/topGun</texPath>
@@ -682,7 +692,7 @@
 
 	<ThingDef ParentName="BaseBullet">
 		<defName>RT_M249_Bullet</defName>
-		<label>M249 bullet</label>
+		<label>M240 bullet</label>
 		<graphicData>
 		  <texPath>Things/Projectile/Bullet_Small</texPath>
 		  <graphicClass>Graphic_Single</graphicClass>

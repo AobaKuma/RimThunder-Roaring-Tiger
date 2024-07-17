@@ -2,7 +2,7 @@
 <LanguageData>
 
   <RT_M1A2_MainBattleTank_Blueprint.label>M1A2主力戰車</RT_M1A2_MainBattleTank_Blueprint.label>
-  <RT_M1A2_MainBattleTank_Blueprint.description>一種性能強勁的老式第三代主力戰車,使用燃氣渦輪引擎驅動以帶來可觀的機動性,在殖民時代曾被大量的外銷與授權生產,裝備了一門120口徑的線膛加農砲與大量為邊緣世界作戰環境需要而安裝的防禦機槍.</RT_M1A2_MainBattleTank_Blueprint.description>
+  <RT_M1A2_MainBattleTank_Blueprint.description>一種性能強勁的老式第三代主力戰車,使用燃氣渦輪引擎驅動以帶來可觀的機動性,在殖民時代曾被大量的外銷與授權生產,裝備了一門120口徑的線膛加農砲與大量為邊緣世界作戰環境需要而安裝的防禦機槍.\n\n&lt;color=#bb8f04&gt;乘員:&lt;/color&gt; 駕駛員 x1, 炮手 x2 乘客x1\n&lt;color=#bb8f04&gt;燃料種類:&lt;/color&gt; 化合燃料</RT_M1A2_MainBattleTank_Blueprint.description>
 
 
 </LanguageData>

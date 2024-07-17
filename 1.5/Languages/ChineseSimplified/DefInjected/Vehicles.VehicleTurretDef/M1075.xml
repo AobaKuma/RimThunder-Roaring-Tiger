@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- 炮1 -->
+
+  <RT_M249_MGTurret_HEMTT.label>M240机枪</RT_M249_MGTurret_HEMTT.label>
+  <RT_M249_MGTurret_HEMTT.fireModes.0.label>短点射</RT_M249_MGTurret_HEMTT.fireModes.0.label>
+  <RT_M249_MGTurret_HEMTT.fireModes.1.label>连射</RT_M249_MGTurret_HEMTT.fireModes.1.label>
+  <RT_M249_MGTurret_HEMTT.fireModes.2.label>单发</RT_M249_MGTurret_HEMTT.fireModes.2.label>
+  <RT_M249_MGTurret_HEMTT.gizmoDescription>选择目标。\n\n效力射\n\n&lt;color=#b0e0e6&gt;CE弹药类型:&lt;/color&gt; 7.62x51mm NATO</RT_M249_MGTurret_HEMTT.gizmoDescription>
+
+
+	<!-- 主炮的Def -->
+
+</LanguageData>

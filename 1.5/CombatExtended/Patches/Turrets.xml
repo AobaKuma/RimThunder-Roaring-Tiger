@@ -19,6 +19,13 @@
 			</li>
 
 			<li Class="PatchOperationReplace">
+				<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_M1A2T_SecondaryTurret"]//shotSound</xpath>
+				<value>
+					<shotSound>HeavyMG</shotSound>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
 				<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_M1A2T_SecondaryTurret"]/warmUpTimer</xpath>
 				<value>
 					<warmUpTimer>1.8</warmUpTimer>
@@ -51,7 +58,7 @@
 				<value>
 					<fireModes>
 						<li>
-							<shotsPerBurst>3</shotsPerBurst>
+							<shotsPerBurst>2</shotsPerBurst>
 							<ticksBetweenShots>6</ticksBetweenShots>
 							<ticksBetweenBursts>60</ticksBetweenBursts>
 							<label>Burst</label>
@@ -121,6 +128,13 @@
 					<reloadTimer>7.8</reloadTimer>
 				</value>
 			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_M2HB_MGTurret"]//shotSound</xpath>
+				<value>
+					<shotSound>HeavyMG</shotSound>
+				</value>
+			</li>
 
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_M2HB_MGTurret"]/warmUpTimer</xpath>
@@ -155,7 +169,7 @@
 				<value>
 					<fireModes>
 						<li>
-							<shotsPerBurst>3</shotsPerBurst>
+							<shotsPerBurst>2</shotsPerBurst>
 							<ticksBetweenShots>6</ticksBetweenShots>
 							<ticksBetweenBursts>60</ticksBetweenBursts>
 							<label>Burst</label>
@@ -223,6 +237,13 @@
 				<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_M249_MGTurret"]/reloadTimer</xpath>
 				<value>
 					<reloadTimer>7.8</reloadTimer>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_M249_MGTurret"]//shotSound</xpath>
+				<value>
+					<shotSound>MediumMG</shotSound>
 				</value>
 			</li>
 
@@ -332,6 +353,13 @@
 			</li>
 
 			<li Class="PatchOperationReplace">
+				<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_M249_MGTurret"]//shotSound</xpath>
+				<value>
+					<shotSound>MediumMG</shotSound>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
 				<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_M249_MGTurret_HEMTT"]/warmUpTimer</xpath>
 				<value>
 					<warmUpTimer>1.2</warmUpTimer>
@@ -363,7 +391,6 @@
 				<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_M249_MGTurret_HEMTT"]/fireModes</xpath>
 				<value>
 					<fireModes>
-						
 						<li>
 							<shotsPerBurst>5</shotsPerBurst>
 							<ticksBetweenShots>6</ticksBetweenShots>
@@ -416,27 +443,6 @@
 					</li>
 				</value>
 			</li>
-
-			<!-- 武器音效替换 -->
-			<li Class="PatchOperationReplace">
-				<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_M1A2T_SecondaryTurret"]/shotSound</xpath>
-				<value>
-					<shotSound>50Cal_Browning</shotSound>
-				</value>
-			</li>
-			<li Class="PatchOperationReplace">
-				<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_M2HB_MGTurret"]/shotSound</xpath>
-				<value>
-					<shotSound>50Cal_Browning</shotSound>
-				</value>
-			</li>
-			<li Class="PatchOperationReplace">
-				<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_M249_MGTurret"]/shotSound</xpath>
-				<value>
-					<shotSound>MediumMG</shotSound>
-				</value>
-			</li>
-			
 
 		</operations>
 	</Operation>
