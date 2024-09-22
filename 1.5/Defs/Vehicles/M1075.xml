@@ -31,7 +31,8 @@
 		<defName>RT_M1075_HEMTT</defName>
 		<label>M1075 HEMTT</label>
 		<description>an ten-wheel drive, diesel-powered tactical truck with 15 tons of cargo capacities, equipped a 7.62mm self-defence machine gun.</description>
-		<buildDef>RT_M1075_HEMTT_Blueprint</buildDef>		
+		<buildDef>RT_M1075_HEMTT_Blueprint</buildDef>
+		<thingClass>Motorization.VehiclePawnCarrier</thingClass>
 		<graphicData>
 			<texPath>Vehicles/M1075/vehicle</texPath>
 			<drawSize>(4, 11)</drawSize>
@@ -392,6 +393,18 @@
 			</li>
 		</components>
 		<comps>
+			<li Class="Motorization.CompProperties_VehicleCargo">
+				<drawData>
+					<dataNorth>(0,0.25,6.5)</dataNorth>
+					<dataEast>(6,0.25,0.75)</dataEast>
+					<dataSouth>(0,0.05,-6.5)</dataSouth>
+					<dataWest>(-6,0.25,0.75)</dataWest>
+					<dataNorthEast>(7.25,0.25,7.25)</dataNorthEast>
+					<dataSouthEast>(7,0.25,-7)</dataSouthEast>
+					<dataSouthWest>(-7,0.25,-7)</dataSouthWest>
+					<dataNorthWest>(-7.25,0.25,7.25)</dataNorthWest>
+				</drawData>
+			</li>
 			<li Class="Vehicles.CompProperties_FueledTravel">
 				<fuelType>Chemfuel</fuelType>
 				<leakDef>Filth_Fuel</leakDef>
