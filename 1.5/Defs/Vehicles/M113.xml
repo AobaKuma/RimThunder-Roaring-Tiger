@@ -33,6 +33,7 @@
 		<label>M113 APC</label>
 		<description>An armoured personal carrier for armed transport, it's common to see in foreign military sales world wide, equipped a 12.7mm machine gun.</description>
 		<buildDef>RT_M113_APC_Blueprint</buildDef>
+		<thingClass>Motorization.VehiclePawn_Tractor</thingClass>
 		<graphicData>
 			<texPath>Vehicles/M113/vehicle</texPath>
 			<drawSize>(7,7)</drawSize>
@@ -347,6 +348,30 @@
 			</li>
 		</components>
 		<comps>
+			<li Class="Motorization.CompProperties_VehicleCargo">
+				<renderVehicle>true</renderVehicle>
+			</li>
+			<li Class="Motorization.CompProperties_TrailerMount">
+				<!--north-->
+				<!--east-->
+				<!--south-->
+				<!--west-->
+				<!--northEast 45-->
+				<!--southEast 135-->
+				<!--southWest 225-->
+				<!--northWest 315-->
+				<rotationPivot>
+					<li>(0.0,0,-1.75)</li>
+					<li>(-1.85,0,0.0)</li>
+					<li>(0.0,0,1.75)</li>
+					<li>(1.85,0,0.0)</li>
+
+					<li>(-1.2,0,-1.2)</li>
+					<li>(-1.414,0,1.414)</li>
+					<li>(1.414,0,1.414)</li>
+					<li>(1.2,0,-1.2)</li>
+				</rotationPivot>
+			</li>
 			<li Class="Vehicles.CompProperties_FueledTravel">	<!-- 油箱與油耗 -->
 				<fuelType>Chemfuel</fuelType>
 				<leakDef>Filth_Fuel</leakDef>

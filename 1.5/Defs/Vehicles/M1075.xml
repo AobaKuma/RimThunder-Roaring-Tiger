@@ -32,7 +32,7 @@
 		<label>M1075 HEMTT</label>
 		<description>an ten-wheel drive, diesel-powered tactical truck with 15 tons of cargo capacities, equipped a 7.62mm self-defence machine gun.</description>
 		<buildDef>RT_M1075_HEMTT_Blueprint</buildDef>
-		<thingClass>Motorization.VehiclePawnCarrier</thingClass>
+		<!-- <thingClass>Motorization.VehiclePawn_Tractor</thingClass> -->
 		<graphicData>
 			<texPath>Vehicles/M1075/vehicle</texPath>
 			<drawSize>(4, 11)</drawSize>
