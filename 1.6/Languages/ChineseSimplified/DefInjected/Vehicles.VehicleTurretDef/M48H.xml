@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 主砲的Def -->
+
+  <RT_M48H_Tank_Turret.label>105毫米坦克炮</RT_M48H_Tank_Turret.label>
+  <RT_M48H_Tank_Turret.fireModes.0.label>单发射击</RT_M48H_Tank_Turret.fireModes.0.label>
+  <RT_M48H_Tank_Turret.gizmoDescription>选择目标。\n\n效力射\n\n&lt;color=#b0e0e6&gt;CE弹药类型:&lt;/color&gt; 105x617mm 加农炮弹</RT_M48H_Tank_Turret.gizmoDescription>
+
+  <!-- 主炮的Def -->
+
+</LanguageData>

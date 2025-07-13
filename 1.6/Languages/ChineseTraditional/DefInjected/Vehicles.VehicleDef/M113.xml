@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 載具本體 -->
+
+  <RT_M113_APC.label>M113裝甲運輸車</RT_M113_APC.label>
+  <RT_M113_APC_Blueprint.description>同樣是一款因戰爭秀而在邊緣世界氾濫的古董級裝備,但因為其優秀的性能與改裝空間而被邊緣世界的人們用於武裝押運與機械化協同作戰,配備一挺用於自保的12.7毫米機槍.\n\n&lt;color=#bb8f04&gt;乘員:&lt;/color&gt; 駕駛員 x1, 炮手 x1 乘客x8\n&lt;color=#bb8f04&gt;燃料種類:&lt;/color&gt; 化合燃料</RT_M113_APC_Blueprint.description>
+  <RT_M113_APC.properties.roles.0.label>駕駛員</RT_M113_APC.properties.roles.0.label>
+  <RT_M113_APC.properties.roles.1.label>頂部機槍手</RT_M113_APC.properties.roles.1.label>
+  <RT_M113_APC.properties.roles.2.label>乘員</RT_M113_APC.properties.roles.2.label>
+  <RT_M113_APC.components.0.label>引擎</RT_M113_APC.components.0.label>
+  <RT_M113_APC.components.1.label>油箱</RT_M113_APC.components.1.label>
+  <RT_M113_APC.components.2.label>變速箱</RT_M113_APC.components.2.label>
+  <RT_M113_APC.components.3.label>傳動軸</RT_M113_APC.components.3.label>
+  <RT_M113_APC.components.4.label>左履帶</RT_M113_APC.components.4.label>
+  <RT_M113_APC.components.5.label>右履帶</RT_M113_APC.components.5.label>
+  <RT_M113_APC.components.6.label>左負重輪組</RT_M113_APC.components.6.label>
+  <RT_M113_APC.components.7.label>右負重輪組</RT_M113_APC.components.7.label>
+  <RT_M113_APC.components.8.label>左驅動輪</RT_M113_APC.components.8.label>
+  <RT_M113_APC.components.9.label>右驅動輪</RT_M113_APC.components.9.label>
+  <RT_M113_APC.components.10.label>左張緊輪</RT_M113_APC.components.10.label>
+  <RT_M113_APC.components.11.label>右張緊輪</RT_M113_APC.components.11.label>
+  <RT_M113_APC.components.12.label>前方裝甲</RT_M113_APC.components.12.label>
+  <RT_M113_APC.components.13.label>左側裝甲</RT_M113_APC.components.13.label>
+  <RT_M113_APC.components.14.label>右側裝甲</RT_M113_APC.components.14.label>
+  <RT_M113_APC.components.15.label>頂部裝甲</RT_M113_APC.components.15.label>
+  <RT_M113_APC.components.16.label>後方裝甲</RT_M113_APC.components.16.label>
+
+  <RT_M113_APC.comps.CompVehicleTurrets.turrets.0.gizmoLabel>機槍</RT_M113_APC.comps.CompVehicleTurrets.turrets.0.gizmoLabel>
+
+
+</LanguageData>

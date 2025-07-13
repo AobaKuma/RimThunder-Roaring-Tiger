@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RT_M113M_APC_Blueprint.label>M113(M)迫擊砲運載車</RT_M113M_APC_Blueprint.label>
+  <RT_M113M_APC_Blueprint.description>在乘員艙安裝了一門81毫米迫擊砲的M113裝甲運輸車,使其能夠機動部屬與為步兵帶來曲射火力支援,但代價是大量減少的載員空間.\n\n&lt;color=#bb8f04&gt;乘員:&lt;/color&gt; 駕駛員 x1, 炮手 x3 乘客x2\n&lt;color=#bb8f04&gt;燃料種類:&lt;/color&gt; 化合燃料</RT_M113M_APC_Blueprint.description>
+
+
+</LanguageData>

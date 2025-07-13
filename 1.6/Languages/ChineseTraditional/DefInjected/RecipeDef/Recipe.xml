@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- 組裝 -->
+  <RT_Make_M1A2_MainBattleTank_Blueprint.label>組裝M1A2主戰坦克</RT_Make_M1A2_MainBattleTank_Blueprint.label>
+  <RT_Make_M1A2_MainBattleTank_Blueprint.description>組裝M1A2主戰坦克</RT_Make_M1A2_MainBattleTank_Blueprint.description>
+
+  <RT_Make_M48H_MediumTank_Blueprint.label>組裝M48H中型坦克</RT_Make_M48H_MediumTank_Blueprint.label>
+  <RT_Make_M48H_MediumTank_Blueprint.description>組裝M48H中型坦克</RT_Make_M48H_MediumTank_Blueprint.description>
+
+  <RT_Make_M113_APC_Blueprint.label>組裝M113裝甲運輸車</RT_Make_M113_APC_Blueprint.label>
+  <RT_Make_M113_APC_Blueprint.description>組裝M113裝甲運輸車</RT_Make_M113_APC_Blueprint.description>
+
+  <RT_Make_M113M_APC_Blueprint.label>組裝M125曲射支援車</RT_Make_M113M_APC_Blueprint.label>
+  <RT_Make_M113M_APC_Blueprint.description>組裝M125曲射支援車</RT_Make_M113M_APC_Blueprint.description>
+
+  <RT_Make_M1075_HEMTT_Blueprint.label>組裝M1075戰術卡車</RT_Make_M1075_HEMTT_Blueprint.label>
+  <RT_Make_M1075_HEMTT_Blueprint.description>組裝M1075戰術卡車</RT_Make_M1075_HEMTT_Blueprint.description>
+</LanguageData>

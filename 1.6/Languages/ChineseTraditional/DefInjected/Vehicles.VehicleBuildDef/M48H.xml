@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RT_M48H_MediumTank_Blueprint.label>M48H中型戰車</RT_M48H_MediumTank_Blueprint.label>
+  <RT_M48H_MediumTank_Blueprint.description>一種老式的第二代戰車，被設計用於在山地與叢林中作戰,然而使它遍布於整個邊緣世界的原因則是因為數百年前使用其作為拍攝道具的邊緣世界實境戰爭秀《西貢鐵拳》在閃耀世界中一炮而紅,使得大量的劇組在邊緣世界紛紛跟風佔據了星球拍攝了大量相關題材的作品.\n\n在鬧劇般的戰爭秀消失於邊緣世界後,這些被大量生產出來的坦克因為其相對易維護的可靠性在經過第三代改裝後成為各大工業世界國家與地區武裝勢力的主要裝甲單位,,裝備了一門105口徑的線膛加農砲與為作戰環境需要而安裝的防禦機槍.\n\n&lt;color=#bb8f04&gt;乘員:&lt;/color&gt; 駕駛員 x1, 炮手 x2 乘客x1\n&lt;color=#bb8f04&gt;燃料種類:&lt;/color&gt; 化合燃料</RT_M48H_MediumTank_Blueprint.description>
+
+
+</LanguageData>
